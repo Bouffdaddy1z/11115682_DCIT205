@@ -32,7 +32,7 @@ nav img{
     content: '';
     width:0%;
     height:2px;
-    background: navy;
+    background: #00093c;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -41,29 +41,21 @@ nav img{
 width:70%;
 }
 .faculty{
-    width:80%;
+    width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
 }
-/* paper */
-.paper{
-flex-basis: 31%;
-border-radius: 10px;
-margin-bottom: 5%;
-text-align: left;
+.Facilities-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom:30px;
+    position:relative; 
+    overflow: hidden;
 }
-.paper img{
-width: 100%;
-border-radius: 10px;
-}
-.paper p{
-padding: 0;
-}
-.paper h3{
-margin-top: 16px;
-margin-bottom: 15px;
-text-align: left;
+.Facilities-col{
+    width: 100%;
+    display: block;
 }
 
 .footer{

@@ -1,7 +1,7 @@
 /* Reset default margins and padding */
 
 body{
-    background-color: gray;
+    background-color:#111; 
 }
 /*Home page*/
 *{
@@ -11,29 +11,24 @@ body{
 }
 .header{
    min-height: 100vh;
-   background-size: cover;
- background-image:url(images/cs\ lecture\ hall\ 1.jpeg);
-background-repeat: no-repeat;
+   width:100%;
+   background-image:url(images/cs\ lecture\ hall\ 2.jpeg);
+   background-size:cover ;
+   object-fit: cover;
    position:relative;
-  z-index: -1;
+   background-color: #2d0b00;
 }
 .header::before{
     content:"" ;
     background-color: #2d0b00;
     opacity: 0.5;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom:0;
-    left: 0;
-    z-index: -1;
 }
 .header img{
     height:50px;
     width: 100%;
     display: flex;
     text-decoration: none;
-   background-color:transparent;
+   background-color:white;
    padding: 2% 6%;
 
 }
@@ -59,7 +54,7 @@ nav img{
     position: relative;
 }           
 .nav-links ul  li a{
-    color:  black;
+    color: #fff;
     text-decoration:none;
     font-size: 15px;
 }
@@ -77,37 +72,36 @@ nav img{
 width:70%;
 }
 .text-box{
-    width: 90%;
+    background: none;
+    width: 800px;
+    border-radius: 7px;
     color: #fff;
     position: absolute;
+    padding: 30px;
     top: 50%;
     left: 50%;
+    margin: auto;
     transform:translate(-50%,-50%) ;
 text-align: center;
 }
 text-box h1{
     font-size: 65%;
-    color: #fff3f3;
-    opacity: 0.5;
+    color: #2d0b00;
+ opacity: 0.5;
     }
-    text-box p{
-        font-size: 65%;
-        color: #fff3f3;
-      
-        }
         .steroid{
             display: inline-block;
             text-decoration:none ;
             color: #fff;
             padding: 12px 34px;
             font-size: 13px;
-            background: transparent;
+            background: #00093c;
             position: relative;
             cursor:pointer;
          }
          .steroid:hover{
              border: 1px solid #fff;
-             background-color: papayawhip;
+             background-color: #00093c;
              transition:0.75s ;
          }
   /* details */
@@ -123,7 +117,7 @@ text-box h1{
     font-weight: 600;
   }
   p{
-    color: #777;
+    color: #00093c;
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
@@ -154,9 +148,32 @@ h3{
 .column1:hover{
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 2);
 }
+.course{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #f0f0f0;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+margin-top: 20px;
+}
+.course h1{
+    /* class for course title */
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom:30px;
+    position:relative; 
+    overflow: hidden;
+    width: 100%;
+    display: block;
+}
+.heading{
+    text-align: center;
+}
 
 /*-------facilities----*/
-.facilities{
+.apple{
     width: 80%;
     margin: auto;
     text-align: center;
@@ -205,14 +222,6 @@ opacity: 1;
     }
 /* .faculty */
     
-.head{
-    background-image: none;
-}
-
-img {
-    vertical-align: middle;
-    border-style: none;
-}
 
 .cta{
     margin: 100px auto;
@@ -328,22 +337,4 @@ color: #fff;
    
     
  /*details*/
- .course{
-    display: flex;
-justify-content: space-between;
-align-items: center;
-background-color: #f0f0f0;
-padding: 20px;
-border-radius: 5px;
-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-.course h1{
-    /* class for course title */
-margin: 0;
-font-size: 24px;
-font-weight: bold;
-color: #333; 
-}
-.heading{
-    text-align: center;
-}
+ 
