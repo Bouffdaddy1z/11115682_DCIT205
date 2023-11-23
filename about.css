@@ -1,0 +1,16 @@
+.seed1{
+    display: grid;
+    text-align: center;
+    display: inline-block;
+    text-decoration:none ;
+    color: #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor:pointer;
+}
+.seed2{
+    display: grid;
+    text-align: center;
+}

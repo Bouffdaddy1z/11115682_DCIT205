@@ -1,0 +1,153 @@
+/* faculty */
+body{
+    background-color: gray;
+}
+/*Home page*/
+*{
+    margin:0 ;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+/*links unordered list*/
+.nav-links ul  li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}           
+.nav-links ul  li a{
+    color:  black;
+    text-decoration:none;
+    font-size: 15px;
+}
+
+.nav-links ul  li::after{
+    content: '';
+    width:0%;
+    height:2px;
+    background: navy;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    }
+.nav-links ul li:hover::after{
+width:70%;
+}
+.faculty{
+    width:80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+/* paper */
+.paper{
+flex-basis: 31%;
+border-radius: 10px;
+margin-bottom: 5%;
+text-align: left;
+}
+.paper img{
+width: 100%;
+border-radius: 10px;
+}
+.paper p{
+padding: 0;
+}
+.paper h3{
+margin-top: 16px;
+margin-bottom: 15px;
+text-align: left;
+}
+
+.footer{
+    width:100%;
+    position:relative;
+    bottom:0;
+    background: linear-gradient(to right,#00093c,#2d0b00);
+    color: #fff;
+    padding: 100px 0 30px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+} 
+
+.footerContainer{
+    width:100% ;
+    padding: 70px 30px 20px;
+}.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+text-decoration: none;
+padding: 10px;
+background-color: white;
+margin: 10px;
+border-radius: 50%;
+}
+.socialIcons a i{
+font-size: 2em;
+color:black;
+opacity: 0.9;
+}
+/*hover effects on Social Media Icons*/
+.socialIcons a:hover{
+background-color: #111;
+transition: 0.5s;
+
+}
+.socialIcons a:hover{
+color:white;
+transition: 0.5s;
+}
+.footerNav{
+margin: 30px 0;
+}
+.footerNav ul{
+display: flex;
+justify-content: center;
+}
+
+.footerNav ul li a{
+color: white; 
+margin: 20px;
+text-decoration: none;
+font-size: 1,3em;
+opacity: 0.7;
+transition: 0.5s;   
+}
+.footerNav ul li a:hover{
+opacity: 1;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+color: #fff;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+/*details*/
+.course{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #f0f0f0;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

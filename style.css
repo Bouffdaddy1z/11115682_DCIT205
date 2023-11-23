@@ -1,4 +1,9 @@
 /* Reset default margins and padding */
+
+body{
+    background-color: gray;
+}
+/*Home page*/
 *{
     margin:0 ;
     padding: 0;
@@ -101,7 +106,8 @@ text-box h1{
              background-color: papayawhip;
              transition:0.75s ;
          }
-  .course{
+  /* details */
+         .course{
     width: 80%;
     margin: auto;
     text-align: center;
@@ -144,11 +150,7 @@ h3{
 .column1:hover{
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 2);
 }
-@media(max-width:700px){
-    .row{
-        flex-direction: column;
-    }
-}
+
 /*-------facilities----*/
 .facilities{
     width: 80%;
@@ -167,6 +169,7 @@ h3{
     width: 100%;
     display: block;
 }
+/*details*/
 .lead{
     background:transparent;
     height: 100%;
@@ -196,31 +199,8 @@ h3{
 opacity: 1;
 
     }
-    /*-------Facilities------*/
-    .faculty{
-        width:80%;
-        margin: auto;
-        text-align: center;
-        padding-top: 100px;
-    }
-.Facilities-col{
-    flex-basis: 31%;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    text-align: left;
-}
-.Facilities-col img{
-    width: 100%;
-    border-radius: 10px;
-}
-.Facilities-col p{
-    padding: 0;
-}
-.Facilities-col h3{
-    margin-top: 16px;
-    margin-bottom: 15px;
-    text-align: left;
-}
+/* .faculty */
+    
 .head{
     background-image: none;
 }
@@ -247,25 +227,7 @@ padding: 100px 0;
 }
 
 /*image in about page*/
-.col-md-6 img{
-    width: 80%;
-    margin-top: 20px;
-    height: 80%;
-    padding: 2%;
-}
 
-img-fluid {
-    max-width: 100%;
-    height: auto;
-    }
-    img {
-        vertical-align: middle;
-        border-style: none;
-    }
-    img {
-        overflow-clip-margin: content-box;
-        overflow: clip;
-    }
     .header1{
        min-height: 50vh;
    width:100%;
@@ -296,7 +258,8 @@ text-align: center;
     } 
 
     .footerContainer{
-        width:100% ;
+        width: 90%;
+        margin: auto;
         padding: 70px 30px 20px;
     }.socialIcons{
         display: flex;
@@ -358,6 +321,41 @@ color: #fff;
         font-weight: 400;
         margin: 0px 5px;
     }
+    /*details*/
+    .course{
+        display: flex;
+ justify-content: space-between;
+ align-items: center;
+ background-color: #f0f0f0;
+ padding: 20px;
+ border-radius: 5px;
+ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+    .course h1{
+        /* class for course title */
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; 
+    }
+    .heading{
+        text-align: center;
+    }
     
-   
-    
+/*About page*/
+    .about{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 20px;
+        width:80%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .seed1{
+        background-color:#00093c;
+    }
+    .seed2{
+        background-color: #00093c;
+    }
+
