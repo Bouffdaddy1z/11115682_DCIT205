@@ -8,6 +8,7 @@ nav img{
 .nav-links{
     flex: 1;
     text-align: right;
+    color: #fff;
 }
 /*links unordered list*/
 .nav-links ul  li{
@@ -77,6 +78,66 @@ h3{
 .column1:hover{
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 2);
 }
+
+/*-------facilities----*/
+.facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.Facilities-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom:30px;
+    position:relative; 
+    overflow: hidden;
+}
+.Facilities-col{
+    width: 100%;
+    display: block;
+}
+/*details*/
+.lead{
+    background:transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0 ;
+    left: 0;
+    transition: 0.5s;
+}
+.lead:hover{
+    background:rgba(0, 0, 0, 0.7);
+
+}
+.lead h2{
+  width: 100%;
+  font-weight: 500;
+  color: #fff;
+  font-size: 26px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  text-align: center;
+}
+.lead:hover h2{
+    bottom: 50%;
+opacity: 1;
+
+    }
+/* .faculty */
+    
+.head{
+    background-image: none;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
 .footer{
     width:100%;
     position:relative;
@@ -88,6 +149,7 @@ h3{
     font-size: 13px;
     line-height: 20px;
 } 
+/*details*/
 
 .footerContainer{
     width: 90%;

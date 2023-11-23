@@ -11,18 +11,22 @@ body{
 }
 .header{
    min-height: 100vh;
-   width:100%;
-   background-image:url(images/background\ image.jpeg);
-background-position: center;
-   background-size:cover ;
-   object-fit: cover;
+   background-size: cover;
+ background-image:url(images/cs\ lecture\ hall\ 1.jpeg);
+background-repeat: no-repeat;
    position:relative;
-   background-color: #000;
+  z-index: -1;
 }
 .header::before{
     content:"" ;
-    background-color: black;
-    opacity: ;
+    background-color: #2d0b00;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom:0;
+    left: 0;
+    z-index: -1;
 }
 .header img{
     height:50px;
@@ -64,7 +68,7 @@ nav img{
     content: '';
     width:0%;
     height:2px;
-    background: navy;
+    background: #2d0b00;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -321,41 +325,25 @@ color: #fff;
         font-weight: 400;
         margin: 0px 5px;
     }
-    /*details*/
-    .course{
-        display: flex;
- justify-content: space-between;
- align-items: center;
- background-color: #f0f0f0;
- padding: 20px;
- border-radius: 5px;
- box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-    .course h1{
-        /* class for course title */
-    margin: 0;
-    font-size: 24px;
-    font-weight: bold;
-    color: #333; 
-    }
-    .heading{
-        text-align: center;
-    }
+   
     
-/*About page*/
-    .about{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: 20px;
-        width:80%;
-        margin: auto;
-        text-align: center;
-        margin-bottom: 10px;
-    }
-    .seed1{
-        background-color:#00093c;
-    }
-    .seed2{
-        background-color: #00093c;
-    }
-
+ /*details*/
+ .course{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #f0f0f0;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.course h1{
+    /* class for course title */
+margin: 0;
+font-size: 24px;
+font-weight: bold;
+color: #333; 
+}
+.heading{
+    text-align: center;
+}
