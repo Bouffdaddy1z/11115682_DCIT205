@@ -1,5 +1,5 @@
 body{
-    background-color:#111; 
+    background-color:rgb(7, 11, 17)
 }
 /*Home page*/
 *{
@@ -47,6 +47,150 @@ nav img{
 .nav-links ul li:hover::after{
 width:70%;
 }
+.hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    width:80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;   
+}
+
+.hero-content{
+display: grid;
+text-align: center;
+display: inline-block;
+text-decoration:none ;
+color: #fff;
+padding: 12px 34px;
+font-size: 13px;
+background: transparent;
+position: relative;
+cursor:pointer;
+}
+.pathway{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    width:80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;   
+}
+
+.excellence{
+display: grid;
+text-align: center;
+display: inline-block;
+text-decoration:none ;
+color: #fff;
+padding: 12px 34px;
+font-size: 13px;
+background: transparent;
+position: relative;
+cursor:pointer;
+}
+.pathway-content{
+    display: grid;
+text-align: center;
+display: inline-block;
+}
+.section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    width:80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;   
+}
+
+.admission{
+display: grid;
+text-align: center;
+display: inline-block;
+text-decoration:none ;
+color: #fff;
+padding: 12px 34px;
+font-size: 13px;
+background: transparent;
+position: relative;
+cursor:pointer;
+}
+.heroine{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    width:80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.gyat{
+    display: grid;
+}
+.process{
+    display: grid;
+text-align: center;
+display: inline-block;
+text-decoration:none ;
+color: #fff;
+padding: 12px 34px;
+font-size: 13px;
+background: transparent;
+position: relative;
+cursor:pointer;
+}
+.tick {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #000;
+    border-top: none;
+    border-right: none;
+    transform: rotate(45deg);
+    margin-right: 5px; /* Adjust the margin as needed */
+  }
+
+.feelings{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    width:80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;   
+}
+.feelings-content{
+display: grid;
+text-align: center;
+display: inline-block;
+text-decoration:none ;
+color: #fff;
+padding: 12px 34px;
+font-size: 13px;
+background: transparent;
+position: relative;
+cursor:pointer;
+}
+
+
+.degree{
+display: grid;
+text-align: center;
+display: inline-block;
+text-decoration:none ;
+color: #fff;
+padding: 12px 34px;
+font-size: 13px;
+background: transparent;
+position: relative;
+cursor:pointer;
+}
+
+
+
 .footer{
     width:100%;
     position:relative;
