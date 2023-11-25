@@ -1,11 +1,34 @@
 body{
-    background: linear-gradient(to right, #003366, #00ccff);
+    background: linear-gradient(to right, #003366, #00ccff); 
 }
-
+/*Home page*/
 *{
     margin:0 ;
     padding: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header{
+   min-height: 100vh;
+   width:100%;
+   background-image:url(images/cs\ lecture\ hall\ 2.jpeg);
+   background-size:cover ;
+   object-fit: cover;
+   position:relative;
+   background-color: #2d0b00;
+}
+.header::before{
+    content:"" ;
+    background-color: #2d0b00;
+    opacity: 0.5;
+}
+.header img{
+    height:50px;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+   background-color:white;
+   padding: 2% 6%;
+
 }
 nav{
     display:flex;
@@ -16,7 +39,6 @@ nav{
 }
 nav img{
     width: 150px;
-    background-color: #fff;
 }
 .nav-links{
     flex: 1;
@@ -30,7 +52,7 @@ nav img{
     position: relative;
 }           
 .nav-links ul  li a{
-    color:  white;
+    color: #fff;
     text-decoration:none;
     font-size: 15px;
 }
@@ -39,7 +61,7 @@ nav img{
     content: '';
     width:0%;
     height:2px;
-    background: navy;
+    background: #2d0b00;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -47,87 +69,75 @@ nav img{
 .nav-links ul li:hover::after{
 width:70%;
 }
-/*About page*/ 
-.heading h1{
-color: #fff;
-text-align: center;
-font-size: 50px;
-font-family: Arial, Helvetica, sans-serif;
-}
-.heading h2{
-    color: #fff;
-text-align: center;
-}
 .about{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: 20px;
-        width:80%;
-        margin: auto;
-        text-align: center;
-        margin-bottom: 10px;   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    width:80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;   
 }
 
 .seed1{
-    display: grid;
-    text-align: center;
-    display: inline-block;
-    text-decoration:none ;
-    color: #fff;
-    padding: 12px 34px;
-    font-size: 13px;
-    background: transparent;
-    position: relative;
-    cursor:pointer;
+display: grid;
+text-align: center;
+display: inline-block;
+text-decoration:none ;
+color: #fff;
+padding: 12px 34px;
+font-size: 13px;
+background: transparent;
+position: relative;
+cursor:pointer;
 }
 .seed2{
-    display: grid;
-    text-align: center;
-    display: inline-block;
-    text-decoration:none ;
-    color: #fff;
-    padding: 12px 34px;
-    font-size: 13px;
-    background: transparent;
-    position: relative;
-    cursor:pointer;
+display: grid;
+text-align: center;
+display: inline-block;
+text-decoration:none ;
+color: #fff;
+padding: 12px 34px;
+font-size: 13px;
+background: transparent;
+position: relative;
+cursor:pointer;
 }
 .history{
-    display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: 20px;
-        width:80%;
-        margin: auto;
-        text-align: center;
-        margin-bottom: 10px; 
+display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    width:80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px; 
 }
 
 
 .optimum{
-    display: grid;
-    text-align: center;
-    display: inline-block;
-    text-decoration:none ;
-    color: #fff;
-    padding: 12px 34px;
-    font-size: 13px;
-    background: transparent;
-    position: relative;
-    cursor:pointer;
+display: grid;
+text-align: center;
+display: inline-block;
+text-decoration:none ;
+color: #fff;
+padding: 12px 34px;
+font-size: 13px;
+background: transparent;
+position: relative;
+cursor:pointer;
 }
 .stud{
-    display: grid;
-    text-align: center;
-    display: inline-block;
-    text-decoration:none ;
-    color: #fff;
-    padding: 12px 34px;
-    font-size: 13px;
-    background: transparent;
-    position: relative;
-    cursor:pointer;
+display: grid;
+text-align: center;
+display: inline-block;
+text-decoration:none ;
+color: #fff;
+padding: 12px 34px;
+font-size: 13px;
+background: transparent;
+position: relative;
+cursor:pointer;
 }
-
 .footer{
     width:100%;
     position:relative;

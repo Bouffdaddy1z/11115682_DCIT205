@@ -1,5 +1,7 @@
 body{
-    background-color:rgb(7, 11, 17)
+    background: linear-gradient(to right, #003366, #00ccff);
+    ;
+    
 }
 /*Home page*/
 *{
@@ -17,6 +19,7 @@ nav{
 }
 nav img{
     width: 150px;
+    background: white;
 }
 .nav-links{
     flex: 1;
@@ -54,20 +57,25 @@ width:70%;
     width:80%;
     margin: auto;
     text-align: center;
-    margin-bottom: 10px;   
+    margin-bottom: 10px; 
+    margin: 0 auto;
+    width: 50%; /* Adjust the width as needed */  
+    display: flex;
+    align-items: center;
+    justify-content: center; 
 }
 
 .hero-content{
-display: grid;
-text-align: center;
-display: inline-block;
-text-decoration:none ;
-color: #fff;
-padding: 12px 34px;
-font-size: 13px;
-background: transparent;
-position: relative;
-cursor:pointer;
+    display: grid;
+    text-align: center;
+    display: inline-block;
+    text-decoration:none ;
+    color: #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor:pointer;
 }
 .pathway{
     display: grid;
@@ -75,10 +83,35 @@ cursor:pointer;
     grid-column-gap: 20px;
     width:80%;
     margin: auto;
-    text-align: center;
-    margin-bottom: 10px;   
-}
+    margin-bottom: 10px;
+    text-align: left;   
+    background: linear-gradient(to right, #8b4513, #ffe4c4);
+    justify-content: space-between;
 
+}
+.pathway h1{
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    text-align: center;
+    font-size: large;
+
+}
+.pathway h2{
+    background:linear-gradient(to right, #ff512f, #dd2476);
+    
+}
+.pathway p{
+    background: linear-gradient(to right, #003366, #00ccff);
+
+}
+.pathway-content img{
+    display: grid;
+    background-color: none;
+    justify-content: space-between;
+}
 .excellence{
 display: grid;
 text-align: center;
@@ -103,7 +136,13 @@ display: inline-block;
     width:80%;
     margin: auto;
     text-align: center;
-    margin-bottom: 10px;   
+    margin-bottom: 10px; 
+    margin: 0 auto;
+    width: 50%; /* Adjust the width as needed */  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .admission{
@@ -117,6 +156,7 @@ font-size: 13px;
 background: transparent;
 position: relative;
 cursor:pointer;
+margin: 0 auto;
 }
 .heroine{
     display: grid;
@@ -195,7 +235,7 @@ cursor:pointer;
     width:100%;
     position:relative;
     bottom:0;
-    background: linear-gradient(to right,#00093c,#2d0b00);
+    background: linear-gradient(to right,#8b4513, #ffe4c4);
     color: #fff;
     padding: 100px 0 30px;
     border-top-left-radius: 125px;
