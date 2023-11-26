@@ -47,7 +47,13 @@ nav img{
 .nav-links ul li:hover::after{
 width:70%;
 }
-/*About page*/ 
+header {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
 .heading h1{
 color: #fff;
 text-align: center;

@@ -1,7 +1,7 @@
 body{
+
     background: linear-gradient(to right, #003366, #00ccff);
-    ;
-    
+    color: #fff;
 }
 /*Home page*/
 *{
@@ -50,6 +50,13 @@ nav img{
 .nav-links ul li:hover::after{
 width:70%;
 }
+header {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
 .hero{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -172,7 +179,7 @@ margin: 0 auto;
 }
 .process{
     display: grid;
-text-align: center;
+text-align: left;
 display: inline-block;
 text-decoration:none ;
 color: #fff;
@@ -204,7 +211,7 @@ cursor:pointer;
 }
 .feelings-content{
 display: grid;
-text-align: center;
+text-align: left;
 display: inline-block;
 text-decoration:none ;
 color: #fff;
