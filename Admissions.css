@@ -149,7 +149,7 @@ display: inline-block;
     display: flex;
     align-items: center;
     justify-content: center;
-
+    background-color:linear-gradient(to right, #8b4513, #ffe4c4); 
 }
 
 .admission{
@@ -164,6 +164,7 @@ background: transparent;
 position: relative;
 cursor:pointer;
 margin: 0 auto;
+
 }
 .heroine{
     display: grid;

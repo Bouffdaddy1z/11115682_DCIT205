@@ -112,13 +112,13 @@ background-color: (to right, #ff512f, #dd2476);
     cursor:pointer;
     background:linear-gradient(to right, #ff512f, #dd2476); 
 }
-}
+
 .history{
     display: grid;
-        grid-template-columns: 2fr 2fr;
+        grid-template-columns: 1fr 1fr;
         grid-column-gap: 20px;
         width:80%;
-        margin:auto;
+        margin-right: x;
         text-align: center;
         margin-bottom: 10px; 
 }
