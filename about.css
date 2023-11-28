@@ -135,7 +135,7 @@ background-color: (to right, #ff512f, #dd2476);
     font-size: 20px;
     position: relative;
     cursor:pointer;
-    background:none;
+    background:#00ccff;
 }
 .stud{
     margin-top: 20px;
@@ -149,7 +149,7 @@ background-color: (to right, #ff512f, #dd2476);
     background: transparent;
     position: relative;
     cursor:pointer;
-    background:none;
+    background:#00ccff;
 }
 .integrity{
     margin-top: 20px;
@@ -157,7 +157,7 @@ background-color: (to right, #ff512f, #dd2476);
     display: grid;
     text-align: center;
     color: #fff;
-    background:linear-gradient(tto bottom,#c9d6df , #b3e5fc) ;
+    background:linear-gradient(to bottom,#c9d6df , #b3e5fc) ;
 }
 footer {
     width: 100%;
