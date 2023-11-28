@@ -311,8 +311,8 @@ text-align: center;
         width: 100%;
         /* position: absolute; */
         bottom: 0;
-        background-color: #8B0000;
-    color: #fff;
+        background: linear-gradient(to right, #8b4513, #ffe4c4);
+
         padding: 100px 0 30px;
         font-size:13px ;
         line-height: 20px;
@@ -383,18 +383,7 @@ text-align: center;
         font-size: 16px;
         color: #ccc;
     }
-    .social-icons{
-        width: 40px;
-        height: 40px;
-        border-radius:  50%; 
-        text-align: center;
-        line-height: 40px;
-        color: #000;
-        background:#fff;
-        margin-right: 15px;
-        cursor: pointer;
-    
-    }
+   
     hr{
         width: 90%;
         border: 0;

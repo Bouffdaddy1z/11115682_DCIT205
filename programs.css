@@ -54,8 +54,22 @@ header {
     color: white;
     padding: 20px;
     text-align: center;
+    margin-bottom: 15px;
 }
-.heading p{
+
+.peace h1{
+color: #fff;
+text-align: center;
+font-size: 30px;
+font-family: Arial, Helvetica, sans-serif;
+color: #fff;
+text-align: center;
+background-color: line;
+padding: 10px 0;
+margin-bottom: 15px;
+background: (to right, #ff512f, #dd2476);
+}
+.peace p{
     color:#fff;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
@@ -63,61 +77,119 @@ header {
     background: #00ccff;
     
 }
-.heading{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.peace{
+    background-color: #dd2476;
+}
+.stud{
     grid-column-gap: 20px;
     width:80%;
     margin: auto;
     text-align: center;
     margin-bottom: 10px;   
 }
-
-.speed{
-margin-top: 20px;
-display: grid;
-text-align: center;
-display: inline-block;
-text-decoration:none ;
+.stud h3{
 color: #fff;
-padding: 12px 34px;
+background-color: #ff6b6b;
 font-size: 20px;
-position: relative;
-cursor:pointer;
-background:linear-gradient(to right, #ff512f, #dd2476); 
+padding: 20px 0;
 }
-.lightning{
-margin-top: 20px;
-display: grid;
-text-align: center;
-display: inline-block;
-text-decoration:none ;
-color: #fff;
-padding: 12px 34px;
-font-size: 20px;
-background: transparent;
-position: relative;
-cursor:pointer;
-background:linear-gradient(to right, #ff512f, #dd2476); 
-}
-.faculty{
-    width: 80%;
-    margin: auto;
-    text-align: center;
+.stud p{
     color: #fff;
-    padding-top: 50px;
+    background-color: #00ccff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-
+    }
+
+
+.prog{
+    display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 20px;
+        width:80%;
+        margin: auto;
+        text-align: left;
+        margin-bottom: 10px;   
 }
-.Facilities-col{
-    flex-basis: 32%;
-    border-radius: 10px;
-    margin-bottom:30px;
-    position:relative; 
-    overflow: hidden;
+
+.raid{
+    margin-top: 20px;
+    display: grid;
+    text-align: left;
+    display: inline-block;
+    text-decoration:none ;
+    color: #fff;
+    padding: 12px;
+    font-size: 15x;
+    position: relative;
+    cursor:pointer;
+    background: #2d0b00;
+    
 }
-.Facilities-col{
-    width: 100%;
-    display: block;
+.clash{
+    margin-top: 20px;
+    display: grid;
+    text-align: left;
+    display: inline-block;
+    text-decoration:none ;
+    color: #fff;
+    padding: 12px;
+    font-size: 15x;
+    position: relative;
+    cursor:pointer;
+    background: #2d0b00;
 }
+
+    .day{
+        margin-top: 20px;
+    display: grid;
+    text-align: left;
+    display: inline-block;
+    text-decoration:none ;
+    color: #fff;
+    padding: 12px;
+    font-size: 15x;
+    position: relative;
+    cursor:pointer;
+    background: #2d0b00;
+}
+.hang{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    width:80%;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 10px; 
+}
+.hangman{
+    margin-top: 20px;
+    margin: auto;
+    display: grid;
+    text-align: left;
+    display: inline-block;
+    text-decoration:none ;
+    color: #fff;
+    padding: 12px;
+    font-size: 15px;
+    position: relative;
+    cursor:pointer;
+    background: #2d0b00;
+}
+.heed{
+    margin-top: 20px;
+    margin: auto;
+    display: grid;
+    text-align: left;
+    display: inline-block;
+    text-decoration:none ;
+    color: #fff;
+    padding: 12px;
+    font-size: 15px;
+    position: relative;
+    cursor:pointer;
+    background: #2d0b00;
+}
+.
+    
 footer {
     width: 100%;
     /* position: absolute; */

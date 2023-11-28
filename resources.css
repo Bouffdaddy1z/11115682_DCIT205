@@ -16,6 +16,7 @@ nav{
 }
 nav img{
     width: 150px;
+    background:#767676 ;
 }
 .nav-links{
     flex: 1;
@@ -46,11 +47,99 @@ nav img{
 .nav-links ul li:hover::after{
 width:70%;
 }
-footer {
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #ff512f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    margin: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+section {
+    padding: 30px;
+    border-bottom: 1px solid #eee;
+}
+
+h2, h3 {
+    color: #fff;
+    text-align: center;
+}
+
+.Facilities-col{
+    flex-basis: 32%;
+    margin-top: 25px;
+    border-radius: 10px;
+    margin-bottom:30px;
+    position:relative; 
+    overflow: hidden;
+}
+.Facilities-col{
+    width: 100%;
+    display: block;
+}
+.Facilities-col p{
+    color: #ccc;
+    font-size: 20px;
+    text-align: center;
+}
+.Facilities-col img{
+    height:auto!important;
+    max-height:400px;
+    object-fit:cover;
+    transition: all 0.6s ease-in-out;
+    /* center align the image */
+     margin: 15px 0;
+    max-width: max-content;
+    }
+/*details*/
+.lead{
+    background:transparent;
+    height: 100%;
     width: 100%;
     position: absolute;
+    top:0 ;
+    left: 0;
+    transition: 0.5s;
+}
+.lead:hover{
+    background:rgba(0, 0, 0, 0.7);
+
+}
+.lead h2{
+  width: 100%;
+  font-weight: 500;
+  color: #fff;
+  font-size: 26px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  text-align: center;
+}
+.lead:hover h2{
+    bottom: 50%;
+opacity: 1;
+
+    }
+footer {
+    width: 100%;
+    /* position: absolute; */
     bottom: 0;
-    background:linear-gradient(to right, #ff512f, #dd2476); 
+    background: linear-gradient(to right, #9b59b6, #e74c3c);
+
     color: #fff;
     padding: 100px 0 30px;
     font-size:13px ;
