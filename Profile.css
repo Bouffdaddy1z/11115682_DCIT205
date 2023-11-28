@@ -72,7 +72,7 @@ main {
     margin: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-
+    background-image: url(images/dark.jpeg)
 }
 
 .profile {
@@ -90,6 +90,11 @@ h2, h3 {
 
 .contact-details {
     margin-top: 30px;
+    color: #fff;
+}
+div p{
+    color: #fff;
+
 }
 footer {
     width: 100%;
