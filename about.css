@@ -151,7 +151,14 @@ background-color: (to right, #ff512f, #dd2476);
     cursor:pointer;
     background:none;
 }
-
+.integrity{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    text-align: center;
+    color: #fff;
+    background:linear-gradient(tto bottom,#c9d6df , #b3e5fc) ;
+}
 footer {
     width: 100%;
     /* position: absolute; */

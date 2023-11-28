@@ -19,3 +19,5 @@ eg. 11115682_DCIT205
 Open the files and start
 Screenshots
 ![home page]("C:\Users\johns\DCIT_205_IA\Screenshots\Screenshot 2023-11-28 140201.png")
+![home page]("C:\Users\johns\DCIT_205_IA\Screenshots\Screenshot 2023-11-28 181410.png")
+![footer]("C:\Users\johns\DCIT_205_IA\Screenshots\Screenshot 2023-11-28 181815.png")
