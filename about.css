@@ -115,38 +115,41 @@ background-color: (to right, #ff512f, #dd2476);
 
 .history{
     display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: 20px;
-        width:80%;
-        margin-right: 15px;
-        text-align: center;
-        margin-bottom: 10px; 
-}
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    width:80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;   
+    }
 
 
 .optimum{
+    margin-top: 20px;
     display: grid;
     text-align: center;
     display: inline-block;
     text-decoration:none ;
     color: #fff;
     padding: 12px 34px;
-    font-size: 13px;
-    background: transparent;
+    font-size: 20px;
     position: relative;
     cursor:pointer;
+    background:none;
 }
 .stud{
+    margin-top: 20px;
     display: grid;
     text-align: center;
     display: inline-block;
     text-decoration:none ;
     color: #fff;
     padding: 12px 34px;
-    font-size: 13px;
+    font-size: 20px;
     background: transparent;
     position: relative;
     cursor:pointer;
+    background:none;
 }
 
 footer {
