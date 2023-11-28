@@ -7,12 +7,15 @@ Welcome to the Department of Computer Science's website! The objective of this i
 Purpose of the Website
  The primary aim of this website is to furnish visitors with valuable details regarding the department, its faculty, ongoing research projects, courses, and other relevant information. Our aim is to ensure that the website is not only informative but also visually appealing and user-friendly.
 How to clone and setup the project
-Clone and Set up project
-  * copy the code from github
-  * clone the repository
-    * eg.git clone https://github.com/Bouffdaddy1z/DCIT_205_IA.git
-  * change into the project directory
-    * eg. 11115682_DCIT205
-  * Open the files and start
+First of all, we need to install git on our machine
+Also make sure you have a GitHub account
+Now that you have created a GitHub account, Use the link in the assignment to access the public repository
+Fork the repository
+copy the code from github
+clone the repository
+eg.git clone https://github.com/Bouffdaddy1z/DCIT_205_IA.git
+Change into the project directory
+eg. 11115682_DCIT205
+Open the files and start
 Screenshots
 ![home page]("C:\Users\johns\DCIT_205_IA\Screenshots\Screenshot 2023-11-28 140201.png")
