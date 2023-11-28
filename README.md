@@ -48,8 +48,12 @@ Screenshots
 ![Details page]("C:\Users\johns\DCIT_205_IA\Screenshots\Screenshot 2023-11-28 214546.png")
 ![Details page]("C:\Users\johns\DCIT_205_IA\Screenshots\Screenshot 2023-11-28 214615.png")
 ![Details page]("C:\Users\johns\DCIT_205_IA\Screenshots\Screenshot 2023-11-28 214645.png")
-![Contact page]("")
-!(Program page)("")
+![Contact page]("C:\Users\johns\DCIT_205_IA\Screenshots\Screenshot 2023-11-28 233923.png")
+![Contact page]("C:\Users\johns\DCIT_205_IA\Screenshots\Screenshot 2023-11-28 233951.png")
+![Contact page]("C:\Users\johns\DCIT_205_IA\Screenshots\Screenshot 2023-11-28 234021.png")
+![Program page]("C:\Users\johns\DCIT_205_IA\Screenshots\Screenshot 2023-11-28 232153.png")
+![Program page]("C:\Users\johns\DCIT_205_IA\Screenshots\Screenshot 2023-11-28 232221.png")
+![Program page]("C:\Users\johns\DCIT_205_IA\Screenshots\Screenshot 2023-11-28 232252.png")
 Key Learnings from the Project
 Approaching this web development project as a newcomer, I dedicated a week to thoroughly understanding the fundamentals of web development. This initial phase, spanning the first week of the project timeline, focused on acquiring a deep comprehension of web development and gaining insights into its diverse components. Empowered with this newfound knowledge, the subsequent week was committed to formulating and implementing the project.
 

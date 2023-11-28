@@ -72,12 +72,14 @@ h2, h3 {
 
 .project-item {
     margin-bottom: 30px;
+    justify-content: center;
 }
 
 .project-item img {
     max-width: 100%;
     border-radius: 8px;
     margin-top: 15px;
+    justify-content: center;
 }.project-item{
     width: 80%;
     margin: auto;
